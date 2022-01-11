@@ -1,0 +1,32 @@
+.header {
+    background-image: url("../img/post-image.jpg");
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $secondary-font;
+    font-size: $font-size-xx-large;
+    font-style: $secondary-font-italic;
+    font-weight: $secondary-font-black;
+    height: 600px;
+    text-align: center;
+    margin-top: 56px;
+
+    &__text {
+        display: inline-flex;
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width: 576px)  {
+    .header {
+        height: 540px;
+    }
+    .header__text {
+        font-size: $font-size-x-large;
+        max-width: 315px;
+        margin: 0px 50px;
+    }
+}

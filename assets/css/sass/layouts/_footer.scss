@@ -1,0 +1,11 @@
+.footer {
+    background-color: $raisin-black;
+    justify-content: center;
+    align-items: center;
+    height: 206px;
+    
+    &__logo {
+        height: 51px;
+        width: 122px;
+    }
+}

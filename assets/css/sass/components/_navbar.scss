@@ -1,0 +1,18 @@
+.navbar {
+    background-color:$raisin-black;
+    color: $white;
+    
+    .navbar__logo {
+        height: 34px;
+        width: 81px;
+    }
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
